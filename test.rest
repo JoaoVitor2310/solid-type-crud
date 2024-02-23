@@ -1,0 +1,13 @@
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "firstName": "João Vitor",
+    "lastName": "Matos Gouveia",
+    "email": "joaovitormatosgouveia@gmail.com",
+    "password": "admin"
+}
+
+###
+GET http://localhost:8000/users
