@@ -20,3 +20,6 @@ Content-Type: application/json
     "firstName": "Joãoo Vitorr",
     "lastName": "Matos Gouveiaaaa"
 }
+
+###
+DELETE  http://localhost:8000/users/65d91390c3644d5df6238294
