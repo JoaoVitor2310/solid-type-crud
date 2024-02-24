@@ -11,3 +11,12 @@ Content-Type: application/json
 
 ###
 GET http://localhost:8000/users
+
+###
+PATCH  http://localhost:8000/users/65da2cc0265976d11621993e
+Content-Type: application/json
+
+{
+    "firstName": "Joãoo Vitorr",
+    "lastName": "Matos Gouveiaaaa"
+}
