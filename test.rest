@@ -3,7 +3,7 @@ POST http://localhost:8000/users
 Content-Type: application/json
 
 {
-    "firstName": "João Vitor",
+    "firstName": "João Vitorooo",
     "lastName": "Matos Gouveia",
     "email": "joaovitormatosgouveia@gmail.com",
     "password": "admin"
@@ -17,9 +17,9 @@ PATCH  http://localhost:8000/users/65da2cc0265976d11621993e
 Content-Type: application/json
 
 {
-    "firstName": "Joãoo Vitorr",
+    "firstName": "Joãoo Viterrrrrr",
     "lastName": "Matos Gouveiaaaa"
 }
 
 ###
-DELETE  http://localhost:8000/users/65d91390c3644d5df6238294
+DELETE  http://localhost:8000/users/65da2cc0265976d11621993e
