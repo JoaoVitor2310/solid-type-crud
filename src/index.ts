@@ -17,6 +17,14 @@ const main = async () => {
   const port = process.env.PORT || 8000;
   await MongoClient.connect();
 
+  app.get("/", async (req, res) => {
+    res
+      .status(200)
+      .send(
+        "Olá, bem vindo ao projeto, saiba mais sobre mim(e o projeto) em: https://docs.google.com/document/d/1tQtWbZDr6f-rfCiAqEb4TAF8X9HXWyeYwkPp74qjDoQ/edit?usp=sharing "
+      );
+  });
+
   app.get("/users", async (req, res) => {
     const mongoGetUsersRepository = new MongoGetUsersRepository(); // Repository que vai se comunicar com o Mongo
     const getUsersController = new GetUsersController(mongoGetUsersRepository); // Irá chamar o método handle

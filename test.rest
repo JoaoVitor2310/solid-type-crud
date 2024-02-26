@@ -17,8 +17,8 @@ PATCH  http://localhost:8000/users/65da2cc0265976d11621993e
 Content-Type: application/json
 
 {
-    "firstName": "Joãoo Viterrrrrr",
-    "lastName": "Matos Gouveiaaaa"
+    "firstName": "Joãoo Vitor",
+    "lastName": "Matos Gouveia"
 }
 
 ###
